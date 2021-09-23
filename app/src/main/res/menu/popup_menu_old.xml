@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/menu_old">
+
+
+    <item
+        android:id="@+id/menu_emergencycall"
+        android:icon="@drawable/toolbar_emergencycall"
+        android:title="@string/menu_emergencycall" />
+    <item
+        android:id="@+id/menu_avalanchebulletin"
+        android:icon="@drawable/marker_slopedangerlvl_unknown"
+        android:title="@string/menu_avalanchebulletin" />
+    <item
+        android:id="@+id/menu_map"
+        android:icon="@drawable/menu_map"
+        android:title="@string/menu_map" />
+    <item
+        android:id="@+id/menu_avalancheobservation"
+        android:icon="@drawable/menu_avalancheobservation"
+        android:title="@string/menu_avalancheobservation" />
+    <item
+        android:id="@+id/menu_weatherstation"
+        android:icon="@drawable/menu_weatherstation"
+        android:title="@string/menu_weatherstation" />
+    <item
+        android:id="@+id/menu_weatherforecast"
+        android:icon="@drawable/menu_weatherforecast"
+        android:title="@string/menu_weatherforecast" />
+
+
+
+    <item
+        android:id="@+id/menu_settings"
+        android:icon="@drawable/menu_settings"
+        android:title="@string/menu_settings" />
+    <item
+        android:id="@+id/menu_avalanchebulletinupdate"
+        android:icon="@drawable/menu_avalanchebulletinupdate"
+        android:title="@string/menu_avalanchebulletinupdate" />
+    <item
+        android:id="@+id/menu_aboutus"
+        android:icon="@drawable/menu_aboutus"
+        android:title="@string/menu_aboutus" />
+
+
+</menu>

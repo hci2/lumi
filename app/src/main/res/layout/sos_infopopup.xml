@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sos_info_popup"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/border"
+    android:orientation="vertical"
+    android:padding="15dp">
+    <!-- "@color/colorWhite" -->
+
+    <TextView
+        android:id="@+id/sos_info_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:text="@string/sos_questions"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/sos_info_whotitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sos_info_whotitle"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/sos_info_whotext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sos_info_whotext"
+        android:textColor="@android:color/black" />
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black" />
+
+    <TextView
+        android:id="@+id/sos_info_whattitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sos_info_whattitle"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/sos_info_whattext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sos_info_whattext"
+        android:textColor="@android:color/black" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black" />
+
+    <TextView
+        android:id="@+id/sos_info_wheretitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sos_info_wheretitle"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/sos_info_wheretext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sos_info_wheretext"
+        android:textColor="@android:color/black" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black" />
+
+    <TextView
+        android:id="@+id/sos_info_whentitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sos_info_whentitle"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/sos_info_whentext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sos_info_whentext"
+        android:textColor="@android:color/black" />
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black" />
+
+    <TextView
+        android:id="@+id/sos_info_howmanytitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sos_info_howmanytitle"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/sos_info_howmanytext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sos_info_howmanytext"
+        android:textColor="@android:color/black" />
+
+    <View
+        android:id="@+id/view5"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black" />
+
+    <TextView
+        android:id="@+id/sos_info_weathertitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sos_info_weathertitle"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/sos_info_weathertext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sos_info_weathertext"
+        android:textColor="@android:color/black" />
+
+
+</LinearLayout>

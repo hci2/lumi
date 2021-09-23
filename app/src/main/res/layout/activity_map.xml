@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:mapbox="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="at.ac.univie.lumi.view.MapActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <include
+            layout="@layout/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/toolbar_border"
+            android:background="@android:color/black" />
+    </android.support.design.widget.AppBarLayout>
+
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:orientation="vertical">-->
+
+
+    <com.mapbox.mapboxsdk.maps.MapView
+        android:id="@+id/mapview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        mapbox:mapbox_styleUrl="@string/style_mapbox_slopeareas">
+
+
+        <include
+            android:id="@+id/navigationbarMap"
+            layout="@layout/navigationbar"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_gravity="bottom|right"
+            android:layout_weight="1" />
+
+
+        <!--<android.support.design.widget.FloatingActionButton
+            android:id="@+id/location_toggle_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="1"
+            app:backgroundTint="@color/colorWhite"
+            app:borderWidth="0dp"
+            app:rippleColor="@android:color/black"
+            app:srcCompat="@drawable/mapbox_mylocation_icon_default"
+            tools:ignore="VectorDrawableCompat" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/zoomout_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="120dp"
+            android:layout_weight="1"
+            app:backgroundTint="@color/colorWhite"
+            app:borderWidth="0dp"
+            app:rippleColor="@android:color/black"
+            app:srcCompat="@drawable/navigationbar_minus" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/zoomin_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|left"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="65dp"
+            android:layout_weight="1"
+            app:backgroundTint="@color/colorWhite"
+            app:borderWidth="0dp"
+            app:rippleColor="@android:color/black"
+            app:srcCompat="@drawable/navigationbar_plus" /> -->
+
+    </com.mapbox.mapboxsdk.maps.MapView>
+    <!--<LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_weight="10"
+           android:orientation="horizontal">
+
+          <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_weight="1"
+               android:gravity="center_horizontal|center"
+               android:orientation="horizontal"> -->
+
+    <!--</LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerHorizontal="false"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal|center"
+                    android:longClickable="false"
+                    android:orientation="horizontal">-->
+
+    <!--
+ android:layout_gravity="end|bottom"
+ android:layout_margin="16dp"
+
+ android:layout_alignParentBottom="true"
+ android:layout_centerHorizontal="true"
+
+ android:layout_alignParentBottom="true"
+ android:layout_centerHorizontal="false"
+ android:layout_marginLeft="234dp"
+ -->
+
+            <!--</LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>-->
+
+</FrameLayout>
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorLightBlue</item> <!-- defines the color of my toolbar-->
+        <item name="colorPrimaryDark">@color/colorGreyBackground</item> <!-- defines also the color of the top action bar -->
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+</resources>

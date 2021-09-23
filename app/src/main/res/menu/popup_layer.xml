@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/layer">
+
+    <item
+        android:id="@+id/layer_dangerzones_scenario"
+        android:icon="@drawable/layer_dangerzones"
+        android:title="@string/layer_dangerzones_scenario" />
+    <item
+        android:id="@+id/layer_slopeangle"
+        android:icon="@drawable/layer_slopeangle"
+        android:title="@string/layer_slopeangle" />
+    <item
+        android:id="@+id/layer_exposition"
+        android:icon="@drawable/layer_exposition"
+        android:title="@string/layer_exposition" />
+    <item
+        android:id="@+id/layer_gullies_bowls"
+        android:icon="@drawable/layer_gullies_bowls"
+        android:title="@string/layer_gullies_bowls" />
+    <item
+        android:id="@+id/layer_bulge"
+        android:icon="@drawable/layer_bulge"
+        android:title="@string/layer_bulge" />
+</menu>

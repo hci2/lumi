@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/layer">
+    <group android:id="@+id/sos_info_who">
+        <item
+            android:id="@+id/sos_info_whotitle"
+            android:title="@string/sos_info_whotitle" />
+        <item
+            android:id="@+id/sos_info_whotext"
+            android:title="@string/sos_info_whotext" />
+    </group>
+    <group android:id="@+id/sos_info_what">
+        <item
+            android:id="@+id/sos_info_whattitle"
+            android:title="@string/sos_info_whattitle" />
+        <item
+            android:id="@+id/sos_info_whattext"
+            android:title="@string/sos_info_whattext" />
+    </group>
+    <group android:id="@+id/sos_info_where">
+        <item
+            android:id="@+id/sos_info_wheretitle"
+            android:title="@string/sos_info_wheretitle" />
+        <item
+            android:id="@+id/sos_info_wheretext"
+            android:title="@string/sos_info_wheretext" />
+    </group>
+    <group android:id="@+id/sos_info_when">
+        <item
+            android:id="@+id/sos_info_whentitle"
+            android:title="@string/sos_info_whentitle" />
+        <item
+            android:id="@+id/sos_info_whentext"
+            android:title="@string/sos_info_whentext" />
+    </group>
+    <group android:id="@+id/sos_info_howmany">
+        <item
+            android:id="@+id/sos_info_howmanytitle"
+            android:title="@string/sos_info_howmanytitle" />
+        <item
+            android:id="@+id/sos_info_howmanytext"
+            android:title="@string/sos_info_howmanytext" />
+    </group>
+    <group android:id="@+id/sos_info_weather">
+        <item
+            android:id="@+id/sos_info_weathertitle"
+            android:title="@string/sos_info_weathertitle" />
+        <item
+            android:id="@+id/sos_info_weathertext"
+            android:title="@string/sos_info_weathertext" />
+    </group>
+
+</menu>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/emergency_call"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="at.ac.univie.lumi.view.EmergencyCallActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <include
+            layout="@layout/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/toolbar_border"
+            android:background="@android:color/black" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <TextView
+        android:id="@+id/title_sos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="2dp"
+        android:text="@string/sos_title"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/height_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2.1"
+                android:gravity="left|center"
+                android:text="@string/sos_height"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/latitude_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2.1"
+                android:gravity="left|center"
+                android:text="@string/sos_latitude"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/longitude_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2.1"
+                android:gravity="left|center"
+                android:text="@string/sos_longitude"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/questions_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1.9"
+                android:gravity="left|center"
+                android:text="@string/sos_questions"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/austrianphonenumber_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:text="@string/sos_austrianphonenumber"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/austrianphonenumber_button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1.4"
+                android:background="@null"
+                android:src="@drawable/sos_austriacall"
+                android:onClick="callAustriaEmergencyCall"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/height_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2.1"
+                android:gravity="center"
+                android:hint="@string/sos_height_loading"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/latitude_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2.1"
+                android:gravity="center"
+                android:hint="@string/sos_latitude_loading"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/longitude_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2.1"
+                android:gravity="center"
+                android:hint="@string/sos_longitude_loading"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@android:color/black" />
+
+            <ImageButton
+                android:id="@+id/questions_button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1.9"
+                android:background="@null"
+                android:onClick="showSOSLegend"
+                android:src="@drawable/sos_info" />
+
+            <TextView
+                android:id="@+id/europeanphonenumber_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:text="@string/sos_europeanphonenumber"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/europeanphonenumber_button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1.4"
+                android:background="@null"
+                android:src="@drawable/sos_europecall"
+                android:onClick="callEuropeEmergencyCall"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
+</RelativeLayout>

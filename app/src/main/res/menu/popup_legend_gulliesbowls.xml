@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/legend">
+
+    <item
+        android:id="@+id/legend_gpsposition"
+        android:icon="@drawable/legend_gpsposition"
+        android:title="@string/legend_gpsposition" />
+    <item
+        android:id="@+id/legend_avalanchebulletin"
+        android:icon="@drawable/marker_slopedangerlvl_unknown"
+        android:title="@string/legend_avalanchebulletin" />
+    <item
+        android:id="@+id/legend_avalanchebulletinarea"
+        android:icon="@drawable/legend_avalanchebulletinarea"
+        android:title="@string/legend_avalanchebulletinarea" />
+    <item
+        android:id="@+id/legend_avalanchebulletinobservation"
+        android:icon="@drawable/legend_avalanchebulletinobservation"
+        android:title="@string/legend_avalanchebulletinobservation" />
+    <item
+        android:id="@+id/legend_weatherstation"
+        android:icon="@drawable/legend_weatherstation"
+        android:title="@string/legend_weatherstation" />
+    <item
+        android:id="@+id/legend_webcam"
+        android:icon="@drawable/legend_webcam"
+        android:title="@string/legend_webcam" />
+    <item
+        android:id="@+id/legend_gulliesbowls"
+        android:icon="@drawable/legend_bulge_gulliesbowls"
+        android:title="@string/legend_gulliesbowls" />
+
+</menu>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/avalanchebulletin_infopopup_additionalload"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/border"
+    android:orientation="vertical"
+    android:padding="15dp">
+    <!-- "@color/colorWhite" -->
+
+    <TextView
+        android:id="@+id/additionalload_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:text="@string/slopeadditionalload_infotitle"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/additionalload_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/slopeadditionalload_infotext"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/additionalload_hyperlink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:textColor="@android:color/black"
+        android:text="@string/slopeadditionalload_infohyperlink"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</LinearLayout>

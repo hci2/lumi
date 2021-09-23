@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/layer">
+
+    <item
+        android:id="@+id/layer_contourline"
+        android:icon="@drawable/layer_contourline"
+        android:title="" />
+    <item
+        android:id="@+id/layer_slopeangle"
+        android:icon="@drawable/layer_slopeangle"
+        android:title="" />
+    <item
+        android:id="@+id/layer_exposition"
+        android:icon="@drawable/layer_exposition"
+        android:title="" />
+    <item
+        android:id="@+id/layer_weather"
+        android:icon="@drawable/layer_weather"
+        android:title="" />
+</menu>

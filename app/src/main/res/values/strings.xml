@@ -1,0 +1,221 @@
+<resources>
+    <string name="app_name">Lumi</string>
+    <string name="access_token_defaultpublic">TODO:INSERT_VALID_TOKEN</string>
+    <string name="access_token_lumi">TODO:INSERT_VALID_TOKEN</string>
+    <string name="access_token_google_elevation" templateMergeStrategy="preserve" translatable="false">TODO:INSERT_VALID_TOKEN</string>
+
+    //map styles
+    <string name="style_mapbox_outdoor">mapbox://styles/mapbox/outdoors-v10</string>
+    <string name="style_mapbox_slopeareas">mapbox://styles/danglp44/cj3fhest000002rlpkoj33css</string>
+
+    <string name="style_mapbox_slopeangle_general">mapbox://styles/danglp44/cj3eo5nor000b2rntx8v4lu1e</string>
+    <string name="style_mapbox_slopeangle_perslopearea">mapbox://styles/danglp44/cj3oh3vq6002y2rmn5qssyvdh</string>
+
+    <string name="style_mapbox_exposition_perslopearea">mapbox://styles/danglp44/cj3ohd5tc000o2rp4qsboido9</string>
+
+    <string name="style_mapbox_gullies_bowls">mapbox://styles/danglp44/cj3fhq5of00022sn24ran4t68</string>
+
+    <string name="style_mapbox_bulge">mapbox://styles/danglp44/cj2sr3ags000s2sqonp6ee24i</string>
+    //scenario 1
+    <string name="style_mapbox_scenario1">mapbox://styles/danglp44/cj3q9tn2n000q2rs3mf4x3kin</string>
+    //scenario 2
+    <string name="style_mapbox_scenario2">mapbox://styles/danglp44/cj45ruvel0ggv2snks92fbbr0</string>
+    //scenario 3
+    <string name="style_mapbox_scenario3">mapbox://styles/danglp44/cj45rvd5a0gfb2rkbcpdi4qu4</string>
+
+    //popup layer
+    <string name="layer_dangerzones_scenario">Aktuelle Gefahrenzonen</string>
+    <string name="layer_slopeangle">Neigung</string>
+    <string name="layer_exposition">Exposition</string>
+    <string name="layer_gullies_bowls">Rinnen und Mulden</string>
+    <string name="layer_bulge">Wölbung</string>
+    // Höhenschichtlinien Neigung Exposition Wetter
+
+
+    //popup menu
+    <string name="menu_emergencycall">Notruf wählen</string>
+    <string name="menu_avalanchebulletin">Nähesten Lawinenbulletin lesen</string>
+    <string name="menu_map">Karte anzeigen</string>
+    <string name="menu_avalancheobservation">Lawinenbeobachtung melden</string>
+    <string name="menu_weatherstation">Näheste Wetterstation anzeigen</string>
+    <string name="menu_weatherforecast">Näheste Wetterdaten</string>
+    <string name="menu_settings">Einstellungen</string>
+    <string name="menu_avalanchebulletinupdate">Lawinenbulletins aktualisieren</string>
+    <string name="menu_aboutus">Über uns</string>
+
+    //popup legend
+    <string name="legend_gpsposition">Deine aktuelle Position</string>
+    <string name="legend_avalanchebulletin">Lawinenbulletin</string>
+    <string name="legend_avalanchebulletinarea">Lawinenbulletinbereich</string>
+    <string name="legend_avalanchebulletinobservation">Userlawinenbeobachtung</string>
+    <string name="legend_weatherstation">Wetterstation</string>
+    <string name="legend_webcam">Webcam</string>
+    <string name="legend_moredangerzones">Viele zutreffende Gefahren</string>
+    <string name="legend_littledangerzones">Weniger zutreffende Gefahren</string>
+    <string name="legend_exposition">Pfeil Richtung Hangausrichtung</string>
+    <string name="legend_slopeangle1">Mässig steil (\u003C30° Neigung)</string>
+    <string name="legend_slopeangle2">Steil (30\u002D35° Neigung)</string>
+    <string name="legend_slopeangle3">Sehr steil (35\u002D40° Neigung)</string>
+    <string name="legend_slopeangle4">Extrem steil (\u003E40° Neigung)</string>
+    <string name="legend_gulliesbowls">Rinne/Mulde</string>
+    <string name="legend_bulge">Wölbung</string>
+
+    //sos page
+    <string name="sos_title">SOS</string>
+    <string name="sos_height">Aktuelle Höhenmeter: </string>
+    <string name="sos_latitude">Breitengrad: </string>
+    <string name="sos_longitude">Längengrad: </string>
+    <string name="sos_questions">Typische Fragen: </string>
+    <string name="sos_austrianphonenumber">Österreichischer Notruf</string>
+    <string name="sos_europeanphonenumber">Europäischer Notruf</string>
+    <string name="sos_height_loading">Lade Höhenmeter ...</string>
+    <string name="sos_latitude_loading">Lade Breitengrad ...</string>
+    <string name="sos_longitude_loading">Lade Längengrad ...</string>
+
+    //sos info popup
+    <string name="sos_info_whotitle">Wer</string>
+    <string name="sos_info_whotext">meldet? (Name, Telefonnummer, Standort)</string>
+    <string name="sos_info_whattitle">Was</string>
+    <string name="sos_info_whattext">ist geschehen?</string>
+    <string name="sos_info_wheretitle">Wo</string>
+    <string name="sos_info_wheretext">ist der Unfallort?</string>
+    <string name="sos_info_whentitle">Wann</string>
+    <string name="sos_info_whentext">ist der Unfall geschehen?</string>
+    <string name="sos_info_howmanytitle">Wie viele</string>
+    <string name="sos_info_howmanytext">ganz Verschüttete, Helfer?</string>
+    <string name="sos_info_weathertitle">Wetter</string>
+    <string name="sos_info_weathertext">am Unfallort?</string>
+
+    //overview menu
+    <string name="overview_map">Karte</string>
+    <string name="overview_mapdangerzones">Gefahrenzonenkarte</string>
+    <string name="overview_weatherstation">Wetterstation</string>
+    <string name="overview_weatherforecast">Wetter</string>
+
+    //sos bar
+
+    <string name="sosbar_title">Notruf wählen</string>
+
+    //avalanche bulletin
+
+    <string name="bulletin_title">Gebiet um Tarntaler Köpfe</string>
+    <string name="bulletin_datetime">Heutiges Datum, Stunden Minuten, Tageszeit</string>
+
+    //info box danger zones
+    <string name="slopedangerzones_infotitle">Erklärung Gefahrenstellen:</string>
+    <string name="slopedangerzones_infotext">Die Anzahl der ! gibt die Anzahl der zutreffenden Gefahrenstellen für diesen Hang an. Die Gefahrenstellen dienen zur genaueren Spezifikation der Gefahrenstufe. Diese können die Sicherheit am Hang wesentlich beeinflussen. Zu den Bereichen der Gefahrenstellen zählen unter anderem die Hangexposition, Hangneigung, Höhenlage, Waldgrenze, Schattenhänge, Windrichtung, Triebschnee, etc.</string>
+    <string name="slopedangerzones_infohyperlink">Nähere Infos:\n<a href="http://www.slf.ch/schneeinfo/zusatzinfos/interpretationshilfe/info_gefahrenstellen/index_DE">http://www.slf.ch/schneeinfo/zusatzinfos/interpretationshilfe/info_gefahrenstellen/index_DE</a></string>
+
+
+    //info box additional load
+    <string name="slopeadditionalload_infotitle">Erklärung Zusatzbelastung:</string>
+    <string name="slopeadditionalload_infotext">Die Zusatzbelastung wird in drei Stufen gering, mittel und groß unterteilt.\n\nGeringe Zusatzbelastung bedeutet, dass zum Bespiel bereits ein einzelner Schifahrer/Person eine Lawine auslösen kann.\n\nMittlere Zusatzbelastung schließt darauf, dass erst ab zwei oder mehr Schifahrern/Personen eine Lawine ausgelöst werden kann.\n\nGroße Zusatzbelastung deutet an, dass erst ab größeren Gruppen Gefahr zum Auslösen einer Lawine besteht.</string>
+    <string name="slopeadditionalload_infohyperlink">Nähere Infos:\n<a href="https://lawine.tirol.gv.at/basics/matrix/">https://lawine.tirol.gv.at/basics/matrix/</a></string>
+
+
+    <string name="slopedangerlvl_text">Hanggefahrenstufe:</string>
+    <string name="slopeadditionalload_text">Zusatzbelastung:</string>
+    <string name="slopeminsh_text">min. Seehöhe:</string>
+    <string name="slopemaxsh_text">max. Seehöhe:</string>
+    <string name="slopeexposition_text">Hangexposition</string>
+    <string name="slopeangle_text">Hangneigung:</string>
+    <string name="slopeavalancheproblems_text">Hangprobleme:</string>
+
+    <string name="bulletin_generaltitle">Allgemeiner Bericht\nRegion Tuxer Alpen</string>
+    <string name="bulletin_dangerlvl">reg. Gefahrenstufe:</string>
+    <string name="bulletin_problems">Regionsprobleme:</string>
+    <string name="bulletin_accidents">Lawinenunfälle diesen Winter:</string>
+    <string name="bulletin_exposition">Gefährliche Expositionen:</string>
+    <string name="bulletin_dangeroursheights">Gefährliche Höhenlagen:</string>
+    <string name="bulletin_dangerpattern">Gefahrenmuster:</string>
+    <string name="bulletin_description">Schneebeschreibung:</string>
+    <string name="bulletin_tendency">Tendenz für den Tagesverlauf</string>
+    <string name="bulletin_writer">Verfasser des Berichts</string>
+
+    <string name="region1">Gebiet 1</string>
+    <string name="region2">Gebiet 2</string>
+    <string name="region3">Gebiet 3</string>
+    <string name="region4">Gebiet 4</string>
+    <string name="region5">Gebiet 5</string>
+    <string name="region6">Gebiet 6</string>
+    <string name="region7">Gebiet 7</string>
+    <string name="region8">Gebiet 8</string>
+    <string name="region9">Gebiet 9</string>
+    <string name="region10">Gebiet 10</string>
+    <string name="region11">Gebiet 11</string>
+    <string name="region12">Gebiet 12</string>
+
+    <string name="link_nointernet">Keine Internetverbindung vorhanden, daher sind die Informationen nicht abrufbar!</string>
+    <string name="appstart_nointernet">Keine Internetverbindung vorhanden! Stellen Sie sicher, dass Sie eine Internetverbindung haben und starten Sie die Anwendung erneut.</string>
+    <string name="mapoffline_nointernet">Keine Internetverbindung vorhanden, daher ist das Herunterladen der Karte nicht möglich!</string>
+
+    //weatherstation
+    <string name="weatherstation_title">Wetterstation wird geladen ...</string>
+    <string name="weatherstation_datetime">Datum und Uhrzeit werden geladen...</string>
+    <string name="weatherstation_height">Seehöhe:</string>
+    <string name="weatherstation_winddirection">Windrichtung:</string>
+    <string name="weatherstation_windspeed">Windgeschwindigkeit:</string>
+    <string name="weatherstation_windgustdirection">Windböenrichtung:</string>
+    <string name="weatherstation_windgust">Windböe:</string>
+    <string name="weatherstation_airtemperature">Lufttemperatur:</string>
+    <string name="weatherstation_relhumidity">Relative Luftfeuchtigkeit:</string>
+    <string name="weatherstation_snowheight">Schneehöhe:</string>
+
+    <string name="weatherstation_snowpillow">Wetterstation Snowpillow</string>
+    <string name="weatherstation_snowpillow_height">1994 m</string>
+    <string name="weatherstation_tarntalerboden">Wetterstation Tarntalerboden</string>
+    <string name="weatherstation_tarntalerboden_height">2544 m</string>
+
+    //weatherforecast
+    <string name="weatherforecast_title">Wetterdaten werden geladen ...</string>
+    <string name="weatherforecast_tempmin">Temp. min </string>
+    <string name="weatherforecast_tempmax">Temp. max</string>
+    <string name="weatherforecast_winddirection">Windrichtung</string>
+    <string name="weatherforecast_windspeed">Windgeschwindigkeit</string>
+    <string name="weatherforecast_snowamount">Schneemenge</string>
+    <string name="weatherforecast_relhumidity">Rel. Feuchtigkeit</string>
+
+    //aboutus page
+
+    <string name="aboutus_title">Über uns</string>
+    <string name="aboutus_text">Lumi wurde in Rahmen einer Bachelorarbeit der Universität Wien in Kooperation mit dem Bundesforschungszentrum für Forst Innsbruck entwickelt.</string>
+    <string name="aboutus_colorblindness_title">Farbblindheit:</string>
+    <string name="aboutus_colorblindness">Die mobile App geht aus Gründen der Einfachkeit nicht auf Farbblindheit ein und übernimmt keine Gewähr für Sichtbarkeit.</string>
+    <string name="aboutus_disclaimer_title">Haftungsausschluss</string>
+    <string name="aboutus_disclaimer">Lumi dient ausschließlich als Hilfstool und als Empfehlung. Es wird keine Haftung für die Richtigkeit der Daten und durch die App entstandene Schäden übernommen.</string>
+
+    //exposition labels
+    <string name="north">Nord</string>
+    <string name="north_east">Nord-Ost</string>
+    <string name="east">Ost</string>
+    <string name="south_east">Süd-Ost</string>
+    <string name="south">Süd</string>
+    <string name="south_west">Süd-West</string>
+    <string name="west">West</string>
+    <string name="north_west">Nord-West</string>
+
+    //scnario chooser activity
+    <string name="scenario_title">Wähle ein Szenario deiner Wahl!</string>
+    <string name="scenario_text">Es gibt drei Szenarien, die repräsentativ zeigen, wie die App für einzelne Tage aussehen könnte. Die App beschränkt sich ebenfalls aus Zeitgründen nur auf das Gebiet rund um das Wattentaler Lizum/Navis und hier vor allem nur auf die Hänge rund um die Tarntaler Köpfe. Außerdem bietet es zur Zeit nur die Hauptfeatures an.</string>
+    <string name="scenario1">Szenario 1:\n14.3.2017</string>
+    <string name="scenario2">Szenario 2:\n14.1.2017</string>
+    <string name="scenario3">Szenario 3:\n14.5.2017</string>
+    <string name="scenario3_lwdbulletinfake">2017-05-01</string>
+
+    //support description links
+    <string name="link_dangerlvl">https://lawine.tirol.gv.at/basics/gefahrenskala/</string>
+    <string name="link_dangerpattern">https://lawine.tirol.gv.at/basics/lawinengefahrenmuster/</string>
+    <string name="link_avalancheproblems">https://lawine.tirol.gv.at/basics/lawinenprobleme/</string>
+    <string name="link_additionalload">https://lawine.tirol.gv.at/basics/matrix/</string>
+
+    // graphics weather station
+    <string name="graphic_winddirection">Grafik Windrichtung mit Windstärke/Windböe</string>
+    <string name="graphic_airtemperatureforecast">Grafik Temperaturprognose</string>
+    <string name="graphic_newsnowforecast72h">Grafik Neuschneeprognose 72h</string>
+
+    <string name="title_activity_weather_station_graphics">WeatherStationGraphicsActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+
+</resources>
