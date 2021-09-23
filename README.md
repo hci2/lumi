@@ -1,6 +1,6 @@
-# Lumi (Local Avalanche Assessment) - Bachlor thesis
+# Lumi (Local Avalanche Assessment) - Bachlor Thesis
 
-
+![lumi_launcher](https://user-images.githubusercontent.com/19223435/134482817-b04ef199-bfe0-4b05-8c30-2d5af1fddd49.png)
 
 ## Description
 
