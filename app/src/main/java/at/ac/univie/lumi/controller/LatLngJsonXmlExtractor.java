@@ -62,7 +62,7 @@ public class LatLngJsonXmlExtractor {
     public static double longitude;
     public static double altitude;
     public static Location lastLocation;
-    public static final String GOOGLE_ACCESS_KEY="AIzaSyDjlcBrH8fNbvheUEJ4OqVg7rBbXylWCf8";
+    public static final String GOOGLE_ACCESS_KEY="TODO:INSERT_GOOGLE_ACCESS_KEY";
     public static StringBuffer responseJSON;
     private static EmergencyCallActivity emergencyCallActivity;
     private static LocationEngine locationEngine;
